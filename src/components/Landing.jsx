@@ -8,16 +8,16 @@ function Landing(){
         <>
         <div className="Landing">
         <nav>
-            <h3>Logo</h3>
-            <div className="middle">
-                <p>Lorem</p>
-                <p>Lorem</p>
-                <p>Lorem</p>
-                <p>Lorem</p>
+            <h3 className="">Logo</h3>
+            <div className="nav--middle">
+                <p>lorem</p>
+                <p>lorem</p>
+                <p>lorem</p>
+                <p>lorem</p>
             </div>
             <div className="nav--last">
-                <button >Sign In</button>
-                <button>Book Now</button>
+                <button className='nav--last-button nav-transparent' onClick={()=>navigate('/loginPage')} >Sign In</button>
+                <button className="nav--last-button nav-yellow" onClick={()=>navigate('/loginPage')}>Book Now</button>
             </div>
         </nav>
         <div className="hero">
@@ -27,8 +27,8 @@ function Landing(){
         </p>
             </div>
         <div className="hero-buttons">
-        <button onClick={()=>navigate('/loginPage')}>Sign In</button>
-        <button>Book Now</button>
+        <button className="hero-buttons-btn hero-btn-white"  onClick={()=>navigate('/loginPage')}>Sign In</button>
+        <button onClick={()=>navigate('/bookNow')}className="hero-buttons-btn">Book Now</button>
         </div>
 
        <div className="bottom-section">
@@ -37,7 +37,7 @@ function Landing(){
         </div> 
         </div>
         <div className="bottom">
-            <div className="Room">
+            <div className="Room bottom-room">
                 <p>Room</p>
             <img src="./assets/Icons/users.svg" alt="" />
             </div>
