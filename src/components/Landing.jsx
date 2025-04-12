@@ -37,25 +37,49 @@ function Landing(){
         </div> 
         </div>
         <div className="bottom">
-            <div className="Room bottom-room">
+        <div className="Room flex">
+        <img src="./src/assets/Icons/home.svg" alt="" />
+        <div>
                 <p>Room</p>
-            <img src="./assets/Icons/users.svg" alt="" />
-            </div>
-            <div className="Check-in">
+                <p>single bed</p>
+        </div>
 
-                <p>Room</p>
-            <img src="./assets/Icons/users.svg" alt="" />
+        <img src="./src/assets/Icons/down.svg" alt="" />
             </div>
-            <div className="Check-out">
+            <div className="Check-in flex">
+            <img src="./src/assets/Icons/date.svg" alt="" />
+<div>
 
-                <p>Room</p>
-            <img src="./assets/Icons/users.svg" alt="" />
+                <p>Check In</p>
+                <p>15 May 2025</p>
+</div>
+
+        <img src="./src/assets/Icons/down.svg" alt="" />
             </div>
-            <div className="Guests">
-                <p>Room</p>
-            <img src="./assets/Icons/users.svg" alt="" />
+            <div className="Check-out flex">
+
+            <img src="./src/assets/Icons/date.svg" alt="" />
+<div>
+                <p>Checkout</p>
+                <p>16 May 2025</p>
+</div>
+
+        <img src="./src/assets/Icons/down.svg" alt="" />
+            </div>
+            <div className="Guests flex">
+            <img src="./src/assets/Icons/users.svg" alt="" />
+        <div>
+                <p>Guest</p>
+                <p>For Adults</p>
+            
+        </div>
+
+        <img src="./src/assets/Icons/down.svg" alt="" />
             </div>
 
+        <div>
+            <button className="nav--last-button nav-yellow bottom-button" onClick={()=>navigate('/landingPage')}>Sign Up</button>
+        </div>
         </div>
         </div>
         </>
