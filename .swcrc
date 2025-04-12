@@ -1,0 +1,13 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",  // or "ecmascript" if plain JS
+      "jsx": true               // true if you're using React
+    },
+    "target": "es2020"
+  },
+  "module": {
+    "type": "es6"
+  },
+  "minify": false
+}
