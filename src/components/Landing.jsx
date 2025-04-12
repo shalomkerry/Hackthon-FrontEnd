@@ -1,9 +1,8 @@
-import { Route, Router, Routes, useNavigate, Link, useLocation } from "react-router-dom";
+import { Route, Router, Routes, useNavigate, Link } from "react-router-dom";
 
 
 function Landing(){
 
-    const {pathname} = useLocation();
     const navigate = useNavigate() 
     return (
         <>
@@ -38,6 +37,25 @@ function Landing(){
         </div> 
         </div>
         <div className="bottom">
+            <div className="Room">
+                <p>Room</p>
+            <img src="./assets/Icons/users.svg" alt="" />
+            </div>
+            <div className="Check-in">
+
+                <p>Room</p>
+            <img src="./assets/Icons/users.svg" alt="" />
+            </div>
+            <div className="Check-out">
+
+                <p>Room</p>
+            <img src="./assets/Icons/users.svg" alt="" />
+            </div>
+            <div className="Guests">
+                <p>Room</p>
+            <img src="./assets/Icons/users.svg" alt="" />
+            </div>
+
         </div>
         </div>
         </>
