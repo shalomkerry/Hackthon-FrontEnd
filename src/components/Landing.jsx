@@ -22,8 +22,8 @@ function Landing(){
         </nav>
         <div className="hero">
             <div className="hero-section">
-        <h1 className='hero-section-title'>Lorem ipsum dolor<br/>Lorem Ipsum </h1>
-        <p className="hero-section-header">Lorem ipsum dolor sit amet consectetur.
+        <h1 className='hero-section-title'>Kuriftu resort & spa African Village </h1>
+        <p className="hero-section-header">an experience you won't forget
         </p>
             </div>
         <div className="hero-buttons">
